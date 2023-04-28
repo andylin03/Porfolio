@@ -1,12 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <title>Porfolio</title>
 </head>
+<!-- the header including my name and the href links on the top right -->
 <body>
+    <header class="links">
+        <h1>Andy Lin</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#bottom">Contact Me</a>
+                </li>
+                <li>
+                    <a href="https://docs.google.com/document/d/1-E7MR5y4VUwvwDBGxSmKVgk3vZ_5gn8m4tbRERzU_zM/edit?usp=sharing">Resume</a>
+                </li>
+                <li>
+                    <a href="https://github.com/andylin03">GitHub</a>
+                </li>
+                <li>
+                    <a href="#works">My Work</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+<!-- This section is for my about me  -->
+    <section class="parent">
+        <div>
+            <h2 class="me">About Me</h2>  
+            <div class="rutgers">
+                <img src="./assets/me.jpeg" alt="picture of me">
+            </div>
+        </div>
+        
+        <p class="paragraph">
+            <br /> <br /> Welcome to my page! <br /> <br /> Hi My name is Andy Lin. I'm a recent graduate of Rutgers University with a dual
+            degree in Business Administration and Health Administration with a concentration in Information
+            Technololgy. <br /> <br /> During my time at Rutgers I was heavily involved on campus. I participated in club soccer, the
+            Information Technology club, as well as serving as the president of Nu Alpha Phi. <br /> <br />I currently hold a full
+            time poisition as a Business Data Analyst for NECA. I have always been an individual who strives to learn
+            and educate myself as much as possible while also exploring numerous fields of interest. At the end of the
+            day, I am passionate about creating new experiences and utilizing/creating new technologies to help improve
+            everyday life. <br /> <br /> In my
+            free time I enjoy ultilizing computer languages to make mini projects, workout, read and game.<br /> <br />
+        </p>
+    </section>
+<!-- this section is for the "my works" -->
+    <section id ="works"class="work">
+        <h3 class="mywork">My Works</h3>
+       
+        <div class="container">
+
+            <div class="box">
+                <img src="./assets/calc.jpeg" alt="calculator">
+                <h3>Calculator</h3>
+                <p>React/Javascript/CSS</p>
+            </div>
+
+            <div class="box">
+                <a href="https://andylin03.github.io/module_one/"target="_blank" rel="noopener noreferrer">
+                <img src="./assets/digital-marketing-meeting.jpg" alt="horiseon">
+            </a>
+                <h4>Horiseon</h4>
+                <p>HTML/CSS</p>
+            </div>
+
+            <div class="box">
+                <img src="./assets/puzz.jpeg" alt="puzzle">
+                <h5>Pastel Puzzle</h5>
+                <p>MERN Stack</p>
+            </div>
+
+            <div class="box">
+                <img src="./assets/run-buddy.jpeg" alt="run buddy">
+                <h6>Run Buddy</h6>
+                <p>HTML/CSS</p>
+            </div>
+
+            <div class="box">
+                <img src="./assets/surf.jpeg" alt="surf report">
+                <h7>Surf Report</h7>
+                <p>MERN Stack</p>
+            </div>
+        </div>
+    </section>
+<!-- footer- bottom of the page that consist of the contact me -->
+    <footer>
+        <h2 id="bottom">Contact Me</h2>
+        <nav>
+            <ul>
+                <li>
+                    <a href="mailto:andylin844@gmail.com">Email</a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/andy-lin-863583173">LinkedIn</a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
     
+
 </body>
+
 </html>
